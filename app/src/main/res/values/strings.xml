@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gridview</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="flower">
+
+        <item>Chrysanthemum</item>
+        <item>Desert</item>
+        <item>Hydrangeas</item>
+        <item>Jellyfish</item>
+        <item>Koala</item>
+        <item>Lighthouse</item>
+        <item>Penguins</item>
+        <item>Tulips</item>
+
+        </string-array>
+    <string name="title_activity_my_dialog">myDialog</string>
+</resources>
