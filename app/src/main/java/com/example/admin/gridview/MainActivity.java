@@ -88,12 +88,12 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             this.context=context;
 
             Resources res=context.getResources();
-            String[] tempFlowerName=res.getStringArray(R.array.flower);
+            String[] tempFlowerNames=res.getStringArray(R.array.flower);
             int[] flowerImages= {R.drawable.image1,R.drawable.image3,R.drawable.image4,R.drawable.image6,R.drawable.image5,R.drawable.image6,R.drawable.image7,R.drawable.image8};
 
             for (i=0;i<8;i++)
             {
-                flowerarray tempFlower=new flowerarray(flowerImages[i],tempFlowerName[i]);
+                flowerarray tempFlower=new flowerarray(flowerImages[i],tempFlowerNames[i]);
                 list.add(tempFlower);
             }
         }
